@@ -1,4 +1,82 @@
+/* This is a comment */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/*#the-one {
+  color: greenyellow;
+}*/
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: lightgrey;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url("/img/gradient.png");
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
 h1 {
-  color: rgb(212, 196, 252);
-  background-color: rgb(29, 85, 104);
+  color: green;
+  background-color: lightgray;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-left: 0.5rem;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  letter-spacing: 1 rem;
+  margin-left: 0.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: coral;
+}
+
+a:active {
+  color: red;
+  background-color: salmon;
+  text-decoration: underline;
+}
+.newcolor {
+  color: rgb(80, 16, 16);
+  background-color: white;
+}
+.box {
+  background-color: pink;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid greenyellow;
+  margin: 30px;
+}
+.standard-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  padding: 10px 20px 30px 20px;
 }
